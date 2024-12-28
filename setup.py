@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='aclvl_permissions',
-    version='0.1',
+    version='0.1.0',
     packages=find_packages(),
     install_requires=[
         'Django>=3.0',
@@ -16,7 +16,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/shahbazism/aclvl_permissions',
-    author='Saeis shahbazi',
+    author='Saeid Shahbazi',
     author_email='saeidshahbazi@zohomail.com',
     classifiers=[
         'Environment :: Web Environment',
