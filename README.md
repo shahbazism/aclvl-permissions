@@ -90,7 +90,7 @@ python manage.py aclvl_set_view_keys
 In your Django project, you can use the custom permission as follows:
 
 ```bash
-from my_django_permissions.permissions import AccessLevelPermission
+from aclvl_permissions.permissions import AccessLevelPermission
 
 class MyView(APIView):
     permission_classes = [AccessLevelPermission]
